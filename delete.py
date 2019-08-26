@@ -5,7 +5,7 @@ import writeas
 username = ''
 password = ''
 # The Write.as slug for your blog - ex: write.as/matt -> 'matt'
-collection = 'conversation'
+collection = ''
 
 
 # Instanciate Write.as Client
@@ -34,8 +34,10 @@ for i in range(1,50):
     break
 
 for p in list:
+# Grab the id of the post
   id = p['id']
+# Feed it into the delete post method to delete
+  c.deletePost(id)
 
-c.deletePost(id)
-
+# Fin
 print('All done! Posts deleted!')
