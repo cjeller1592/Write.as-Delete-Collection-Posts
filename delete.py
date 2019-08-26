@@ -2,8 +2,8 @@ import writeas
 
 # PUT IN VALUES BEFORE RUNNING SCRIPT
 # Username and password for Write.as account
-username = 'cjeller'
-password = 'Iwillnotmakeboring1'
+username = ''
+password = ''
 # The Write.as slug for your blog - ex: write.as/matt -> 'matt'
 collection = 'conversation'
 
